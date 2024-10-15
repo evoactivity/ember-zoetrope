@@ -1,0 +1,35 @@
+:global .zoetrope {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+:global .zoetrope-header {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: var(--zoetrope-offset, 0);
+}
+
+:global .zoetrope-controls {
+  align-items: center;
+  display: flex;
+  padding-right: var(--zoetrope-offset, 0);
+}
+
+.scroller {
+  overflow: scroll visible;
+  padding: 8px 0;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: none;
+  width: 100%;
+}
+
+.scroll-content {
+  display: flex;
+  flex-direction: row;
+  gap: var(--zoetrope-gap, 8px);
+  padding: 0 var(--zoetrope-offset, 0);
+  width: max-content;
+}

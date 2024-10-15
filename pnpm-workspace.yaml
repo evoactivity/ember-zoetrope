@@ -1,0 +1,6 @@
+packages:
+  - blueprints/*
+  - configs/**
+  - docs-app
+  - packages/**
+  - test-app
