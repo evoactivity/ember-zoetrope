@@ -441,6 +441,9 @@ importers:
       decorator-transforms:
         specifier: ^2.2.2
         version: 2.2.2(@babel/core@7.25.8)
+      ember-modifier:
+        specifier: ^4.2.0
+        version: 4.2.0(@babel/core@7.25.8)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.25.8))(@glint/template@1.4.0)(rsvp@4.8.5))
       embroider-css-modules:
         specifier: ^2.0.11
         version: 2.0.11(@babel/core@7.25.8)
@@ -505,9 +508,6 @@ importers:
       concurrently:
         specifier: ^9.0.1
         version: 9.0.1
-      ember-modifier:
-        specifier: ^4.2.0
-        version: 4.2.0(@babel/core@7.25.8)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.25.8))(@glint/template@1.4.0)(rsvp@4.8.5))
       ember-source:
         specifier: ~5.12.0
         version: 5.12.0(@glimmer/component@1.1.2(@babel/core@7.25.8))(@glint/template@1.4.0)(rsvp@4.8.5)(webpack@5.95.0)
